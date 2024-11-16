@@ -6,7 +6,6 @@
 @echo %remaining% > budget.MoneyBat
 
 @echo ---- >> MoneyBat.log
-@echo " "
 @echo Date: %DATE% >> MoneyBat.log
 @echo Budget: %budget% >> MoneyBat.log
 @echo Spent: %spent% >> MoneyBat.log
