@@ -13,6 +13,6 @@
 @echo For: %purpose% >> MoneyBat.log
 @echo Remaining: %remaining% >> MoneyBat.log
 
-echo [*] Logs updated
-TIMEOUT /T 10
+@echo [*] Logs updated
+@TIMEOUT /T 10
 
