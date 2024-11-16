@@ -39,7 +39,13 @@ budget.MoneyBat ----> Mostly so that MoneyBat can keep track of your budget. You
 
 -----
 
+<h2> Notes </h2>
 
+- MoneyBat.log & budget.MoneyBat only appear after you've run Setup & MoneyBat atleast once.
+- To update MoneyBat's code, run 'git pull'. Your budget and logs will NOT be reset and you needn't run Setup.bat again.
+
+----
+ 
 
 
 
