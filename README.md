@@ -19,6 +19,7 @@ MoneyBat is a set of batch scripts that helps you manage your money quickly and 
 - Easy Update & Reset
 - All files are stored locally so information is totally private
 - Works on any windows system that supports batch (.bat) scripts and will prolly work on Linux and Mac too with Wine
+- Portable
 
 ----
 
