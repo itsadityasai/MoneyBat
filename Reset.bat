@@ -5,9 +5,7 @@
 @echo 0 > budget.MoneyBat
 @echo Done.. Run Setup.bat to reconfigure MoneyBat
 @TIMEOUT /T 7
-@exit
 ) else (
 @echo Exiting..
 @TIMEOUT /T 7
-@exit 
 )
