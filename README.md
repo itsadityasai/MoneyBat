@@ -27,47 +27,41 @@ MoneyBat is a set of batch scripts that help you manage your money quickly and e
 ## Quick guide 
 ### Scripts 
 
-&emsp;&emsp;Setup.bat -----> Run this first to get MoneyBat up and running!
+| Name | Function |
+|------|----------|
+| Setup.bat | Run this first to get MoneyBat up and running! |
+|Reset.bat | Something went wrong? Start from scratch. |
+| Spent.bat |  Logs your spendings | 
+| Lent.bat | Logs the money you've lent to people| 
+| Owed.bat |  Keeps track of how much money you owe people| 
+| AddMoney.bat |  Add money to your budget.| 
+| Returned.bat | Logs the return of previously lent money in Lent.log | 
 
-&emsp;&emsp;Reset.bat ---> Something went wrong? Start from scratch.
+### Logs 
 
-&emsp;&emsp;Spent.bat ----> Logs your spendings
+| Name | Data |
+|------|-----|
+| Spent.log |  A log of all your spendings | 
+| Lent.log | Log of lent money & returned money | 
+| Owed.log | Log of owed money| 
+| Added.log|  Log of added money| 
+| All.log |  Log of everything| 
+ 
+### Other Files 
 
-&emsp;&emsp;Lent.bat ----> Logs the money you've lent to people
-
-&emsp;&emsp;Owed.bat ----> Keeps track of how much money you owe people
-
-&emsp;&emsp;AddMoney.bat ----> Add money to your budget.
-
-&emsp;&emsp;Returned.bat ----> Logs the return of previously lent money in Lent.log 
-
-&emsp; <h3> Logs </h3>
-
-&emsp;&emsp;Spent.log ----> A log of all your spendings
-
-&emsp;&emsp;Lent.log ----> Log of lent money & returned money
-
-&emsp;&emsp;Owed.log ----> Log of owed money
-
-&emsp;&emsp;Added.log ----> Log of added money
-
-&emsp;&emsp;All.log ----> Log of everything
-
-&emsp; <h3> Other </h3>
-
-&emsp;&emsp;README.md ---> Somewhat an instruction booklet, contains details about the project
-
-&emsp;&emsp;.gitignore ---> Files to be ignored while pushing git updates.. Used to prevent upload of confidential files (by me)
-
-&emsp;&emsp;.git ---> Present if you cloned the repository. Used by git to manage commits, push and pull code, etc.
-
-&emsp;&emsp;Wallet ----> Mostly so that MoneyBat can keep track of your budget. Your remaining budget is logged in Spent.log anyway. This stores your balance.
+| Name | Data |
+|----|----|
+| README.md | Somewhat an instruction booklet, contains details about the project. You're reading it rn. | 
+| .gitignore |  Files to be ignored while pushing git updates.. Used to prevent upload of confidential files | 
+| .git/ |  Present if you cloned the repository. Used by [git](https://git-scm.com/) to manage commits, push and pull code, etc.| 
+| Wallet |  Mostly so that MoneyBat can keep track of your budget. Your remaining budget is logged in Spent.log anyway. This stores your balance. | 
 
 -----
 
 <h2> Notes </h2>
 
 - To update MoneyBat's code, run 'git pull'. Your budget and logs will NOT be reset and you needn't run Setup.bat again. If you don't have git you can download the zip file and transfer logs/ & Wallet to the new folder.
+- I personally prefer to just run `type Wallet` to see what balance I have - you may prefer it too
 
 
 ----
