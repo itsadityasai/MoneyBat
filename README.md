@@ -29,7 +29,7 @@ Setup.bat -----> Run this first to get MoneyBat up and running!
 
 MoneyBat.bat ----> The main script, use it to log your spendings.
 
-Update.bat ----> Add money to your budget.
+AddMoney.bat ----> Add money to your budget.
 
 Reset.bat ---> Something went wrong? Start from scratch.
 
