@@ -40,27 +40,29 @@ MoneyBat is a set of batch scripts that helps you manage your money quickly and 
 
 &emsp;&emsp;AddMoney.bat ----> Add money to your budget.
 
+&emsp;&emsp;Returned.bat ----> Logs the return of previously lent money in Lent.log 
+
 &emsp; <h3> Logs </h3>
 
-&emsp;&emsp; Spent.log ----> A log of all your spendings
+&emsp;&emsp;Spent.log ----> A log of all your spendings
 
-&emsp;&emsp; Lent.log ----> Log of lent money
+&emsp;&emsp;Lent.log ----> Log of lent money & returned money
 
-&emsp;&emsp; Owed.log ----> Log of owed money
+&emsp;&emsp;Owed.log ----> Log of owed money
 
-&emsp;&emsp; Added.log ----> Log of added money
+&emsp;&emsp;Added.log ----> Log of added money
 
-&emsp;&emsp; All.log ----> Log of everything
+&emsp;&emsp;All.log ----> Log of everything
 
 &emsp; <h3> Other </h3>
 
-&emsp;&emsp; README.md ---> Somewhat an instruction booklet, contains details about the project
+&emsp;&emsp;README.md ---> Somewhat an instruction booklet, contains details about the project
 
-&emsp;&emsp; .gitignore ---> Files to be ignored while pushing git updates.. Used to prevent upload of confidential files (By Mate0xz)
+&emsp;&emsp;.gitignore ---> Files to be ignored while pushing git updates.. Used to prevent upload of confidential files (By Mate0xz)
 
-&emsp;&emsp; .git ---> Present if you cloned the repository. Used by git to manage commits, push and pull code, etc.
+&emsp;&emsp;.git ---> Present if you cloned the repository. Used by git to manage commits, push and pull code, etc.
 
-&emsp;&emsp; Wallet ----> Mostly so that MoneyBat can keep track of your budget. Your remaining budget is logged in Spent.log anyway. This stores your budget.
+&emsp;&emsp;Wallet ----> Mostly so that MoneyBat can keep track of your budget. Your remaining budget is logged in Spent.log anyway. This stores your budget.
 
 -----
 
