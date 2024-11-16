@@ -24,7 +24,7 @@
 @echo Date: %DATE% >> logs/All.log
 @echo Budget: %budget% >> logs/All.log
 @echo Lent: %amount% >> logs/All.log
-@echo To: %to% >> logs/Lent.log
+@echo To: %to% >> logs/All.log
 @echo For: %purpose% >> logs/All.log
 
 @if %remaining% lss 0 (
