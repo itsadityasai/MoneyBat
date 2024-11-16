@@ -66,7 +66,9 @@ MoneyBat is a set of batch scripts that help you manage your money quickly and e
 
 ----
  
+## License
 
+Usage is governed by [this license](/LICENSE)
 
 
 
