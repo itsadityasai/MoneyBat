@@ -5,6 +5,6 @@
 @echo %finalbudget% > budget.MoneyBat
 @echo ---- >> MoneyBat.log
 @echo Added %budget% on %DATE% >> MoneyBat.log
-echo Added %budget% on %DATE% at %TIME%
+echo [*] Added %budget% on %DATE% at %TIME%
 TIMEOUT /T 10
 
