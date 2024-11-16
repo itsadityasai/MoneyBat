@@ -3,17 +3,25 @@
 @set /P from="From: "
 @set /P dueby="Due by: "
 @set /P pur="Purpose: "
-@set /P oldbudget=<budget.MoneyBat
+@set /P oldbudget=<Wallet
 @set /A newbudget = %oldbudget% + %borrowed%
-@echo %newbudget% > budget.MoneyBat
+@echo %newbudget% > Wallet
 
-@echo ---- >> owed.log
-@echo Date: %DATE% >> owed.log
-@echo Borrowed: %borrowed% >> owed.log
-@echo From: %from% >> owed.log
-@echo For: %pur% >> owed.log
-@echo Due By: %dueby% >> owed.log
-@echo Wallet: %newbudget% >> owed.log
+@echo ---- >> logs/Owed.log
+@echo Date: %DATE% >> logs/Owed.log
+@echo Borrowed: %borrowed% >> logs/Owed.log
+@echo From: %from% >> logs/Owed.log
+@echo For: %pur% >> logs/Owed.log
+@echo Due By: %dueby% >> logs/Owed.log
+@echo Wallet: %newbudget% >> logs/Owed.log
+
+@echo ---- >> logs/All.log
+@echo Date: %DATE% >> logs/All.log
+@echo Borrowed: %borrowed% >> logs/All.log
+@echo From: %from% >> logs/All.log
+@echo For: %pur% >> logs/All.log
+@echo Due By: %dueby% >> logs/All.log
+@echo Wallet: %newbudget% >> logs/All.log
 
 @echo [*] Logs updated
 @TIMEOUT /T 10
