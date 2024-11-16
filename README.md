@@ -61,7 +61,7 @@ MoneyBat is a set of batch scripts that help you manage your money quickly and e
 <h2> Notes </h2>
 
 - To update MoneyBat's code, run 'git pull'. Your budget and logs will NOT be reset and you needn't run Setup.bat again. If you don't have git you can download the zip file and transfer logs/ & Wallet to the new folder.
-- I personally prefer to just run `type Wallet` to see what balance I have - you may prefer it too
+- I personally prefer to just run `type Wallet` to see what balance I have - you may prefer it too.
 
 
 ----
